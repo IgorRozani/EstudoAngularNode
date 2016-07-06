@@ -1,4 +1,4 @@
-estudoAngularNodeApp.controller('EstudoController', function EstudoController($scope){
+estudoAngularNodeApp.controller('ClienteController', function ClienteController($scope){
   $scope.clientes = [
     { codigo : 1, nome : 'Joao Marcelo', dataNascimento: '1986-09-10T00:00:00Z'},
     { codigo : 2, nome : 'Raimundo Ferreira', dataNascimento: '1972-05-16T00:00:00Z'},

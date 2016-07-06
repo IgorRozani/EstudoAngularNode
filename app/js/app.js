@@ -2,9 +2,9 @@
 
 var estudoAngularNodeApp = angular.module('estudoAngularNodeApp',['ngRoute'])
   .config(function($routeProvider){
-    $routeProvider.when('/lista', {
-      templateUrl: 'templates/EstudoController.html',
-      controller: 'EstudoController'
+    $routeProvider.when('/clientes', {
+      templateUrl: 'templates/ClienteController.html',
+      controller: 'ClienteController'
     });
     $routeProvider.when('/home', {
       templateUrl:'templates/HomeController.html',
