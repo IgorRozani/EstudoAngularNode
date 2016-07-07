@@ -5,6 +5,6 @@
   <div href="#" class="list-group-item" ng-repeat="cliente in clientes">
     <h4 class="list-group-item-heading">{{cliente.nome}}</h4>
     <p class="list-group-item-text">Código: {{cliente.codigo}}</p>
-    <p class="list-group-item-text">Data de nascimento: {{cliente.dataNascimento}}</p>
+    <p class="list-group-item-text">Data de nascimento: {{cliente.dataNascimento | date:'dd/MM/yyyy'}}</p>
   </div>
 </div>
