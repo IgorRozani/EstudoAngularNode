@@ -1,6 +1,6 @@
 'use strict';
 
-var estudoAngularNodeApp = angular.module('estudoAngularNodeApp',['ngRoute'])
+var estudoAngularNodeApp = angular.module('estudoAngularNodeApp',['ngRoute', 'ngResource'])
   .config(function($routeProvider){
     $routeProvider.when('/clientes', {
       templateUrl: 'templates/ClienteController.html',
